@@ -9,8 +9,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "quarto-site-skeleton",
+    "title": "Welcome to the 15th Swedish Economic History Meeting",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "At the Lund Department of Economic History \n\n\n\n\n\n\nThe dates will go here\n\n\n\nThe dates of the meeting are\n\n\n\n\n\n\n\n\n\n\n\nPhoto by Samuel Bryngelsson on Unsplash"
+  },
+  {
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "Programme",
+    "section": "",
+    "text": "Here is where the programme will go"
+  },
+  {
+    "objectID": "venues.html",
+    "href": "venues.html",
+    "title": "Venues",
+    "section": "",
+    "text": "The venues for the meeting are:"
   }
 ]

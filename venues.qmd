@@ -1,0 +1,20 @@
+---
+title: "Venues"
+---
+
+The venues for the meeting are:
+
+```{r, echo=F, warning=F, message=F}
+library(leaflet)
+
+m <- leaflet() %>%
+  setView(lng = 13.2146138, lat = 55.7113054, zoom = 13) %>% 
+  addPopups(lng = 13.19383, lat = 55.70462, popup = "Lundagard") %>%
+  addPopups(lng = 13.2146138, lat = 55.7113054, popup = "Department of Economic History") %>%
+  addProviderTiles(providers$CartoDB.Positron)
+
+m 
+
+
+```
+

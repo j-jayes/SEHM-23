@@ -1,12 +1,28 @@
 ---
 title: "Welcome to the 15th Swedish Economic History Meeting"
+toc: false
 ---
 
-![](./img/proud_coder_2780E3.svg){.hero}
+```{r, include=FALSE}
+library(fontawesome)
+```
 
+### At the Lund Department of Economic History `r fa("book-bookmark", fill = "steelblue")`
+
+::: {.callout-warning}
+## The dates will go here
+
+The dates of the meeting are
+
+:::
+
+
+![](assets/lund_hero.jpg){.hero fig-align="center"}
+
+
+
+
+::: {.column-margin}
 Photo by <a href="https://unsplash.com/@samuelbryngelsson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Bryngelsson</a> on <a href="https://unsplash.com/s/photos/lund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-Dates
-
-At the Lund Department of Economic History
-
+:::
