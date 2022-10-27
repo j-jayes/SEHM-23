@@ -13,9 +13,20 @@ website:
         icon: calendar
         text: Programme
       - href: venues.qmd
-        icon: school
+        icon: building
         text: Venues
-      - about.qmd
+    right:
+      - text: "Logistics"
+        menu:
+          - text: "Travel"
+            icon: house-heart
+            href: logistics/travel.qmd
+          - text: "Accomodation"
+            icon: house-heart
+            href: logistics/accomodation.qmd
+      - href: planning.qmd
+        icon: flower1
+        text: Planning
 
 format:
   html:
@@ -25,5 +36,7 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
-
+execute:
+  echo: false
+  warning: false
+  message: false

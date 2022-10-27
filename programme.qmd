@@ -2,6 +2,77 @@
 title: "Programme"
 ---
 
+Here is where the programme will go in a nice table
 
-Here is where the programme will go
+```{r}
+library(tidyverse)
+library(gt)
+
+df <- readxl::read_excel("programme/programme.xlsx") %>% 
+  mutate(across(where(is.character), str_squish))
+
+buildings <- readxl::read_excel("venues/buildings.xlsx") %>% 
+  mutate(across(.cols = c(lng, lat), parse_number))
+
+rooms <- readxl::read_excel("venues/rooms.xlsx") %>% 
+  mutate(building_number = as.numeric(str_extract(room_number, "^[0-9]")))
+
+df <- df %>% 
+  inner_join(rooms)
+
+col_room_opts <- rooms %>% 
+  left_join(buildings) %>% 
+  select(room_name, building_colour)
+
+sessions <- df %>% 
+  distinct(session) %>% 
+  pull()
+
+make_table <- function(session_in) {
+  
+  session_n <- parse_number(session_in)
+  
+  day <- df %>%
+    filter(session == session_in) %>%
+    distinct(day) %>% 
+    pull()
+  
+  tab <- df %>%
+    filter(session == session_in) %>%
+    select(-c(day, session)) %>%
+    mutate(panel_link = glue::glue("<a href = {link}>
+                                   {panel}
+                                   </a>")) %>%
+    mutate(panel_link = purrr::map(panel_link, gt::html)) %>%
+    select(panel_link, title, room_name) %>%
+    gt() %>%
+    cols_label(panel_link = "Panel", title = "Panel title", room_name = "Venue") %>%
+    cols_align(panel_link, align = c("left")) %>%
+    cols_width(panel_link ~ px(120),
+               room_name ~ px(120)) %>% 
+    data_color(
+      columns = room_name,
+      colors = scales::col_factor(
+        palette = col_room_opts %>% pull(building_colour),
+        domain = col_room_opts %>% pull(room_name)
+      )
+    ) %>%
+    tab_header(title = md(glue::glue("**{day}**")),
+               subtitle = md(glue::glue("**{session_in}**"))) %>% 
+    as_raw_html()
+  
+  cat("\n\n")                         # Space
+  
+  print(tab)
+  
+  cat("\n\n")                         # Space
+
+}
+```
+
+
+```{r, results='asis'}
+purrr::walk(sessions, make_table)
+```
+
 

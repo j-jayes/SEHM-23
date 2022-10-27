@@ -4,17 +4,103 @@ title: "Venues"
 
 The venues for the meeting are:
 
-```{r, echo=F, warning=F, message=F}
+```{r}
+library(tidyverse)
+library(gt)
 library(leaflet)
 
+
+buildings <- readxl::read_excel("venues/buildings.xlsx") %>% 
+  mutate(across(.cols = c(lng, lat), parse_number))
+
+rooms <- readxl::read_excel("venues/rooms.xlsx") %>% 
+  mutate(building_number = as.numeric(str_extract(room_number, "^[0-9]")))
+
+make_venue_table <- function(bn) {
+  col <- buildings %>%
+    filter(bn == building_number) %>%
+    pull(building_colour)
+
+  name <- buildings %>%
+    filter(bn == building_number) %>%
+    pull(building_name)
+
+  rooms %>%
+    select(-description) %>% 
+    filter(bn == building_number) %>%
+    select(-building_number) %>%
+    gt() %>%
+    tab_header(title = md(glue::glue("**{name}**"))) %>%
+    tab_style(
+      style = list(
+        cell_fill(color = col),
+        cell_text(color = "white")
+      ),
+      locations = cells_title(
+        groups = c("title", "subtitle")
+      )
+    ) %>% 
+    tab_options(column_labels.hidden = T,
+                table.font.size = pct(85)) %>% 
+    as_raw_html()
+}
+
+buildings_map <- buildings %>% 
+  mutate(table = map(building_number, make_venue_table))
+```
+
+
+```{r}
 m <- leaflet() %>%
-  setView(lng = 13.2146138, lat = 55.7113054, zoom = 13) %>% 
-  addPopups(lng = 13.19383, lat = 55.70462, popup = "Lundagard") %>%
-  addPopups(lng = 13.2146138, lat = 55.7113054, popup = "Department of Economic History") %>%
+  setView(lng = 13.2146138, lat = 55.7113054, zoom = 15) %>% 
+  addPopups(data = buildings_map, lng = ~ lng, lat = ~ lat, popup = ~ table,
+            options = popupOptions(closeButton = FALSE)) %>%
   addProviderTiles(providers$CartoDB.Positron)
 
 m 
-
-
 ```
+
+<br>
+
+```{r}
+rb <- rooms %>% 
+  left_join(buildings)
+
+link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+
+rb %>%
+  mutate(location_link = glue::glue("<a href = {link}>
+                                   Google maps link
+                                   </a>"),
+         location_link = purrr::map(location_link, gt::html)) %>% 
+  select(-c(building_number, building_colour, lng, lat)) %>%
+  group_by(building_name) %>%
+  gt() %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#191970"),
+      cell_text(color = "white")
+    ),
+    locations = cells_row_groups(groups = "Lundagard")
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#800020"),
+      cell_text(color = "white")
+    ),
+    locations = cells_row_groups(groups = "Department of Economic History")
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#004225"),
+      cell_text(color = "white")
+    ),
+    locations = cells_row_groups(groups = "LUB")
+  ) %>% 
+  tab_header(title = md("**Venues**"),
+             subtitle = md("**By building**")) %>% 
+  tab_options(column_labels.hidden = T)
+```
+
+
 
