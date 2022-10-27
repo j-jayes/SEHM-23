@@ -1,0 +1,22 @@
+---
+title: "Travel"
+---
+
+```{r}
+#| column: margin
+
+knitr::include_graphics(here::here("assets/train_station.png"))
+```
+
+
+### `r fontawesome::fa("train", fill = "steelblue")` Trains
+
+Skanetrafiken info
+
+### `r fontawesome::fa("plane-up", fill = "steelblue")` Planes
+
+Don't fly it's bad
+
+### `r fontawesome::fa("taxi", fill = "steelblue")` Taxis in Lund
+
+Call them [here]()

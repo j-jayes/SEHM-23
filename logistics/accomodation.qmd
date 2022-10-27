@@ -1,0 +1,14 @@
+---
+title: "Accomodation"
+---
+
+```{r}
+#| column: margin
+
+knitr::include_graphics(here::here("assets/hotel.png"))
+```
+
+
+## `r fontawesome::fa("hotel", fill = "steelblue")` Where to stay
+
+You can stay here...

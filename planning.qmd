@@ -1,0 +1,24 @@
+---
+title: "Website planning"
+---
+
+# Purpose
+
+This website holds the information for The 15th Swedish Economic History Meeting to be held in Lund in 2023.
+
+## Planning
+
+What needs to be done?
+
+- Decide on venues and update map and colours
+- Update programme
+- Find a nice way to format session abstracts
+
+## Website update process
+
+The plan is that you will be able to update the important parts of the website by only editing an excel sheet.
+
+```{r}
+knitr::include_url("")
+```
+
