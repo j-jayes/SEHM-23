@@ -18,7 +18,7 @@
     "href": "index.html#accomodation-and-travel",
     "title": "Welcome to the 15th Swedish Economic History Meeting",
     "section": "Accomodation and travel",
-    "text": "Accomodation and travel\n\n\n\n\n\n\nThe accomodation and travel info is here \n\n\n\nAccommodation information will be summarized here.\nA link to travel information goes here.\nA link to accomodation information goes here."
+    "text": "Accomodation and travel\n\n\n\n\n\n\nThe accomodation and travel info is here \n\n\n\nAccommodation information will be summarized here.\nHere is a link to travel information.\nHere is a link to accomodation information."
   },
   {
     "objectID": "logistics/accomodation.html#where-to-stay",
@@ -39,7 +39,7 @@
     "href": "planning.html",
     "title": "Website planning",
     "section": "",
-    "text": "This website holds the information for The 15th Swedish Economic History Meeting to be held in Lund in 2023.\n\n\nWhat needs to be done?\n\nDecide on venues and update map and colours\nUpdate programme\nFind a nice way to format session abstracts"
+    "text": "This website holds the information for The 15th Swedish Economic History Meeting to be held in Lund in 2023.\n\n\nWhat needs to be done?\n\nDecide on venues and update map and colours\nUpdate programme\nFind a nice way to format session abstracts\n\n\n\n\nThe plan is that you will be able to update the important parts of the website by only editing an excel sheet.\nThe sheet is stored on github called programme.\n\n\n\n\nIt looks like this:\n\n\n\n\n\nYou can download this from github, update it on your computer, and then either add it back to github or email it to me.\nThen the website will update and include all of the new information!"
   },
   {
     "objectID": "programme.html",

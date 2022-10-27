@@ -18,7 +18,18 @@ What needs to be done?
 
 The plan is that you will be able to update the important parts of the website by only editing an excel sheet.
 
+The sheet is stored on github called `programme`.
+
 ```{r}
-knitr::include_url("")
+knitr::include_url("https://github.com/j-jayes/SEHM-23/tree/main/programme")
 ```
 
+It looks like this:
+
+```{r}
+knitr::include_graphics(here::here("assets/programme_sheet.PNG"))
+```
+
+You can download this from github, update it on your computer, and then either add it back to github or email it to me.
+
+Then the website will update and include all of the new information!
