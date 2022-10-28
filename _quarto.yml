@@ -20,10 +20,10 @@ website:
       - text: "Logistics"
         menu:
           - text: "Travel"
-            icon: house-heart
+            icon: card-checklist
             href: logistics/travel.qmd
           - text: "Accomodation"
-            icon: house-heart
+            icon: house
             href: logistics/accomodation.qmd
       - href: planning.qmd
         icon: flower1
@@ -31,9 +31,7 @@ website:
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
+    theme: flatly
     css: styles.css
     toc: true
 
