@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "15th SEHM"
+  title: "SEHM {{< fa person-chalkboard >}}"
   favicon: assets/favicon.ico
   navbar:
     left:
@@ -19,11 +19,9 @@ website:
     right:
       - text: "Logistics"
         menu:
-          - text: "Travel"
-            icon: card-checklist
+          - text: "{{< fa train >}} Travel"
             href: logistics/travel.qmd
-          - text: "Accomodation"
-            icon: house
+          - text: "{{< fa hotel >}} Accomodation"
             href: logistics/accomodation.qmd
       - href: planning.qmd
         icon: flower1
@@ -31,7 +29,9 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme:
+    - flatly
+    - custom.scss
     css: styles.css
     toc: true
 

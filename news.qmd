@@ -1,0 +1,15 @@
+---
+title: "News"
+---
+
+### Registration dates
+
+Registration is open until
+
+### What is the scope for digital attendance?
+
+A few of the venues have nice cameras
+
+### Registration form
+
+You can access the registration form [here](registration.qmd)
