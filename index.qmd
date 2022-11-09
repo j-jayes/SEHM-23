@@ -14,7 +14,7 @@ library(fontawesome)
 ::: {.hero-banner}
 
 ::: {.hero-image .hero-image-left}
-![](assets/hero_left.png){fig-alt="To add"}
+![](assets/hero_left_1_2.png){fig-alt="To add"}
 :::
 
 ::: {.content-block}
@@ -50,7 +50,7 @@ library(fontawesome)
 :::
 
 ::: {.hero-image .hero-image-right}
-![](assets/hero_right.png){fig-alt="To add"}
+![](assets/hero_right_1_2.png){fig-alt="To add"}
 :::
 
 :::
@@ -60,7 +60,7 @@ library(fontawesome)
 ::: {.features}
 
 ::: {.feature}
-### News {{< fa newspaper >}}
+### {{< fa newspaper >}} News
 This year we're having a party!
 
 ::: {.learn-more}
@@ -69,7 +69,7 @@ This year we're having a party!
 :::
 
 ::: {.feature}
-### Info {{< fa circle-info >}}
+### {{< fa circle-info >}} Info
 Here is the programme, containing both the meeting sessions and the social events.
 
 ::: {.learn-more}
@@ -78,7 +78,7 @@ Here is the programme, containing both the meeting sessions and the social event
 :::
 
 ::: {.feature}
-### FAQs {{< fa circle-question >}}
+### {{< fa circle-question >}} FAQs
 How long should my presentation be? Must I have the paper written by the date of the meeting? What is the fast track publication process like?
 
 ::: {.learn-more}
