@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "SEHM {{< fa person-chalkboard >}}"
   favicon: assets/favicon.ico
   navbar:
     left:
@@ -16,16 +15,30 @@ website:
       - href: venues.qmd
         icon: building
         text: Venues
-    right:
-      - text: "Logistics"
+      - text: "{{< fa signs-post >}} Registration"
         menu:
-          - text: "{{< fa train >}} Travel"
-            href: logistics/travel.qmd
-          - text: "{{< fa hotel >}} Accomodation"
-            href: logistics/accomodation.qmd
-      - href: planning.qmd
+          - href: registration.qmd
+            text: "{{< fa user >}} Register"
+          - href: propose.qmd
+            text: "{{< fa comment >}} Propose a session"
+          - href: paper-submit.qmd
+            text: "{{< fa newspaper >}} Submit an abstract"
+    right:
+      - text: "{{< fa train >}} Travel"
+        href: logistics/travel.qmd
+      - text: "{{< fa hotel >}} Accomodation"
+        href: logistics/accomodation.qmd
+      - text: "More"
         icon: flower1
-        text: Planning
+        menu:
+          - href: planning.qmd
+            text: "Planning"
+          - href: news.qmd
+            text: "News"
+          - href: info.qmd
+            text: "Information"
+          - href: faqs.qmd
+            text: "FAQs"
 
 format:
   html:

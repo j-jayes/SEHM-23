@@ -9,6 +9,6 @@ knitr::include_graphics(here::here("assets/hotel.png"))
 ```
 
 
-## `r fontawesome::fa("hotel", fill = "steelblue")` Where to stay
+## `r fontawesome::fa("hotel", fill = "#22458a")` Where to stay
 
 You can stay here...

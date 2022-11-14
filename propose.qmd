@@ -3,3 +3,5 @@ title: "Propose a session"
 ---
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfefHFCbwMOgT1_GZgVOFlJlO5Wvz-wCqlJtNbC-OZG9b6tPw/viewform?embedded=true" width="800" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+If you have any questions, please feel free to [contact us here {{< fa paper-plane >}}]({{< var email.contact >}})

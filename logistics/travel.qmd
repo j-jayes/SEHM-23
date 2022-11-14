@@ -9,14 +9,14 @@ knitr::include_graphics(here::here("assets/train_station.png"))
 ```
 
 
-### `r fontawesome::fa("train", fill = "steelblue")` Trains
+### `r fontawesome::fa("train", fill = "#22458a")` Trains
 
 Skanetrafiken info
 
-### `r fontawesome::fa("plane-up", fill = "steelblue")` Planes
+### `r fontawesome::fa("plane-up", fill = "#22458a")` Planes
 
 Don't fly it's bad
 
-### `r fontawesome::fa("taxi", fill = "steelblue")` Taxis in Lund
+### `r fontawesome::fa("taxi", fill = "#22458a")` Taxis in Lund
 
 Call them [here]()

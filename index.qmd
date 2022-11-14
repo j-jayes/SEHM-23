@@ -25,7 +25,7 @@ library(fontawesome)
 
 ::: {.column width="40%"}
 
-### Hosted by the Department of Economic History at Lund University
+**In collaboration with the 4th Annual Conference of the Scandinavian Society for Economic and Social History**
 
 - Dates {{< fa calendar-days >}}
 
@@ -39,12 +39,14 @@ library(fontawesome)
 ![](assets/lund_hero_watercolour.png)
 :::
 
+### Hosted by the Department of Economic History at Lund University
+
 ::::
 
-
 ::: {.hero-buttons}
-[Register](registration.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-[Propose a session](propose.qmd){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Register](registration.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"}
+[Propose a session](propose.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
+[Submit an abstract](paper-submit.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
 ::: 
 
 :::
@@ -64,7 +66,7 @@ library(fontawesome)
 This year we're having a party!
 
 ::: {.learn-more}
-[Learn more »](docs/computations/python.qmd)
+[Learn more »](news.qmd)
 :::
 :::
 
@@ -73,7 +75,7 @@ This year we're having a party!
 Here is the programme, containing both the meeting sessions and the social events.
 
 ::: {.learn-more}
-[Learn more »](docs/output-formats/all-formats.qmd)
+[Learn more »](info.qmd)
 :::
 :::
 
@@ -82,7 +84,7 @@ Here is the programme, containing both the meeting sessions and the social event
 How long should my presentation be? Must I have the paper written by the date of the meeting? What is the fast track publication process like?
 
 ::: {.learn-more}
-[Learn more »](docs/output-formats/all-formats.qmd)
+[Learn more »](faqs.qmd)
 :::
 :::
 
@@ -95,7 +97,13 @@ How long should my presentation be? Must I have the paper written by the date of
 
 ### Contact us {{< fa paper-plane >}}
 
-Get in touch with the organizing committee [here]().
+Get in touch with the organizing committee [here]({{< var email.contact >}}).
+
+```{r}
+#| fig-width: 2
+
+knitr::include_graphics("assets/LU_Ekonomiho╠êgskolan_BLACK_ENG.png")
+```
 
 :::
 

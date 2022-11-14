@@ -39,6 +39,6 @@ It looks like this:
 knitr::include_graphics(here::here("assets/programme_sheet.PNG"))
 ```
 
-You can download this from github, update it on your computer, and then either add it back to github or email it to me.
+You can download this from github [here](https://github.com/j-jayes/SEHM-23/raw/main/programme/programme.xlsx), update it on your computer, and then either add it back to github or email it to me.
 
 Then the website will update and include all of the new information!
