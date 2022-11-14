@@ -10,13 +10,22 @@ This website holds the information for The 15th Swedish Economic History Meeting
 
 What needs to be done?
 
+### Organization
+
 - Decide on venues and update map and colours
 - Update programme
-- Find a nice way to format session abstracts
 - Registration (google forms?)
 - Propose a session (google forms?)
+
+### Abstracts
+
+- Find a nice way to format session abstracts
+- Is a combined pdf the best way?
+
+### Website
+
 - Set up a contact us email address
-- Buy a URL?
+- Buy a URL? Ask Gothenberg if we can use [ekonomiskhistoria.org](https://ekonomiskhistoria.org/)
 
 ## Website update process
 
