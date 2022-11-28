@@ -8,15 +8,24 @@ title: "Travel"
 knitr::include_graphics(here::here("assets/train_station.png"))
 ```
 
+Lund University has compiled a list of information about travelling to the university.
+
+These include:
 
 ### `r fontawesome::fa("train", fill = "#22458a")` Trains
 
-Skanetrafiken info
+- [Local trains between Malmö and Lund](https://www.lunduniversity.lu.se/about-university/visit-lund-university#local)
+
+- [Trains from Berlin, Oslo, Stockholm and Gothenburg](https://www.lunduniversity.lu.se/about-university/visit-lund-university#train)
+
+### `r fontawesome::fa("bus", fill = "#22458a")` Busses
+
+- [Bus/coach services from key cities in Germany, Denmark, Sweden, Norway](https://www.lunduniversity.lu.se/about-university/visit-lund-university#bus)
 
 ### `r fontawesome::fa("plane-up", fill = "#22458a")` Planes
 
-Don't fly it's bad
+- [Copenhagen Airport – the closest international airport to Lund](https://www.lunduniversity.lu.se/about-university/visit-lund-university#kastrup)
 
 ### `r fontawesome::fa("taxi", fill = "#22458a")` Taxis in Lund
 
-Call them [here]()
+Call them [here](https://taxilund.se/)

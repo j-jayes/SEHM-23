@@ -11,4 +11,4 @@ knitr::include_graphics(here::here("assets/hotel.png"))
 
 ## `r fontawesome::fa("hotel", fill = "#22458a")` Where to stay
 
-You can stay here...
+[Visit Lund](https://visitlund.se/en) has a selection of hotels at which you can stay [listed here](https://visitlund.se/en/accomodation-and-travel/stay-in-lund)

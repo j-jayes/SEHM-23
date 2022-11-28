@@ -3,3 +3,7 @@ title: "Submit an abstract"
 ---
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmYTxxGsIbcFh5UaYurttMu9BHcu3--XEjSZ-8LVTlq7gePw/viewform?embedded=true" width="800" height="2200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+---
+
+If you have any questions, please feel free to [contact us here {{< fa paper-plane >}}]({{< var email.contact >}})

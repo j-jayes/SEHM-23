@@ -20,9 +20,7 @@ You can propose a session [here](propose.qmd) until the 20th of January 2023.
 
 You can submit an abstract [here](paper-submit.qmd) until the end of April 2023.
 
-### Registration form
-
-You can access the registration form [here](registration.qmd)
+---
 
 ### FAQs
 
@@ -31,6 +29,11 @@ You can access the registration form [here](registration.qmd)
 #### Must I have the paper written by the date of the meeting? 
 
 #### What is the fast track publication process like?
+
+The Scandinavian Economic History Review is offering the possibility for participants at the conference to submit their papers for fast track consideration for publication. All contributions should be based on original research and will be subject to the normal peer-review process. Please remember to note that you are submitting for the fast track when you apply for the conference. Interested authors will be required to submit a full version through [the SEHR online submission platform](https://www.tandfonline.com/loi/sehr20) two weeks before the conference at the latest. The papers will be subject to an initial review by the SEHR editors.
+
+
+Accepted papers will be presented at separate “fast track sessions”, where an SEHR editor will be present and provide feedback on your work. The authors of the very best submissions will be invited to revise their papers based on these comments within three weeks, and the resubmissions will then be subject to the usual peer review process, with an initial decision made by the end of **January 2023**. Please note, that the fast track does not in any way preclude other papers from being submitted to the Review.
 
 ---
 

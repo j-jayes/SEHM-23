@@ -72,7 +72,7 @@ We welcome scholars to the fifteenth biannual Swedish Economic History Meeting a
 
 ::: {.feature}
 ### {{< fa circle-info >}} Info
-Here is some informatio about the meeting, containing both the meeting sessions and the social events.
+Here is some information about the meeting, containing both the meeting sessions and the social events.
 
 ::: {.learn-more}
 [Learn more »](info.qmd)
