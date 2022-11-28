@@ -9,12 +9,6 @@ website:
       - href: index.qmd
         icon: house
         text: Home
-      - href: programme.qmd
-        icon: calendar
-        text: Programme
-      - href: venues.qmd
-        icon: building
-        text: Venues
       - text: "{{< fa signs-post >}} Registration"
         menu:
           - href: registration.qmd
@@ -31,13 +25,11 @@ website:
       - text: "More"
         icon: flower1
         menu:
-          - href: planning.qmd
-            text: "Planning"
-          - href: news.qmd
+          - href: info.qmd
             text: "News"
           - href: info.qmd
             text: "Information"
-          - href: faqs.qmd
+          - href: info.qmd
             text: "FAQs"
 
 format:

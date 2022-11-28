@@ -1,5 +1,5 @@
 ---
-title: "Information"
+title: "News and information"
 ---
 
 The Department of Economic History, School of Economics and Management, Lund University, on behalf of the Scandinavian Society for Economic and Social History and the Swedish Economic History Society hereby invite scholars to the joint fifteenth biannual Swedish Economic History Meeting and the fourth annual Conference of the Scandinavian Society for Economic and Social History. 
@@ -8,7 +8,30 @@ The Swedish Economic History Meeting is established as an important forum for co
 
 The conference mainly consists of parallel working panels composed around proposals from contributors and prospective attendants from all over Scandinavia. A wide range of subject matters will be discussed. There will also be keynote presentations and special opportunities for doctoral students to present their thesis projects. Moreover, there will be administrative meetings for Heads of Departments and Director of studies, and for the national and Scandinavian Economic history associations. 
 
-Please refer to [programme](programme.qmd) page for an updated list of accepted panels and paper presentations.
+### Registration dates
+
+Register your attendence [here](registration.qmd).Registration is open until March 2023.
+
+### Propose a session
+
+You can propose a session [here](propose.qmd) until the 20th of January 2023.
+
+### Submit an abstract
+
+You can submit an abstract [here](paper-submit.qmd) until the end of April 2023.
+
+### Registration form
+
+You can access the registration form [here](registration.qmd)
+
+### FAQs
+
+#### How long should my presentation be? 
+
+#### Must I have the paper written by the date of the meeting? 
+
+#### What is the fast track publication process like?
+
+---
 
 If you have any questions, please feel free to [contact us here {{< fa paper-plane >}}]({{< var email.contact >}})
-

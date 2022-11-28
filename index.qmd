@@ -63,16 +63,16 @@ library(fontawesome)
 
 ::: {.feature}
 ### {{< fa newspaper >}} News
-This year we're having a party!
+We welcome scholars to the fifteenth biannual Swedish Economic History Meeting and the fourth annual Conference of the Scandinavian Society for Economic and Social History.
 
 ::: {.learn-more}
-[Learn more »](news.qmd)
+[Learn more »](info.qmd)
 :::
 :::
 
 ::: {.feature}
 ### {{< fa circle-info >}} Info
-Here is the programme, containing both the meeting sessions and the social events.
+Here is some informatio about the meeting, containing both the meeting sessions and the social events.
 
 ::: {.learn-more}
 [Learn more »](info.qmd)
@@ -84,7 +84,7 @@ Here is the programme, containing both the meeting sessions and the social event
 How long should my presentation be? Must I have the paper written by the date of the meeting? What is the fast track publication process like?
 
 ::: {.learn-more}
-[Learn more »](faqs.qmd)
+[Learn more »](info.qmd)
 :::
 :::
 
