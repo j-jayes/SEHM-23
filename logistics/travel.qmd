@@ -28,4 +28,4 @@ These include:
 
 ### `r fontawesome::fa("taxi", fill = "#22458a")` Taxis in Lund
 
-Call them [here](https://taxilund.se/)
+- Call Taxi Lund [here](https://taxilund.se/)
