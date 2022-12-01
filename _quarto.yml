@@ -11,12 +11,12 @@ website:
         text: Home
       - text: "{{< fa signs-post >}} Registration"
         menu:
-          - href: registration.qmd
-            text: "{{< fa user >}} Register"
+          # - href: registration.qmd
+            # text: "{{< fa user >}} Register"
           - href: propose.qmd
             text: "{{< fa comment >}} Propose a session"
-          - href: paper-submit.qmd
-            text: "{{< fa newspaper >}} Submit an abstract"
+          # - href: paper-submit.qmd
+            # text: "{{< fa newspaper >}} Submit an abstract"
     right:
       - text: "{{< fa train >}} Travel"
         href: logistics/travel.qmd

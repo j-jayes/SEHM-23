@@ -27,7 +27,7 @@ library(fontawesome)
 
 **In collaboration with the 4th Annual Conference of the Scandinavian Society for Economic and Social History**
 
-- Dates {{< fa calendar-days >}}
+- 28-29 September 2023 {{< fa calendar-days >}}
 
 :::
 
@@ -44,9 +44,9 @@ library(fontawesome)
 ::::
 
 ::: {.hero-buttons}
-[Register](registration.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"}
+<!-- [Register](registration.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
 [Propose a session](propose.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
-[Submit an abstract](paper-submit.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
+<!-- [Submit an abstract](paper-submit.qmd){#btn-guide .btn-action .btn .btn-info role="button"} -->
 ::: 
 
 :::
