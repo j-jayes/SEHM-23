@@ -80,11 +80,29 @@ library(fontawesome)
 ::: {.features .border}
 
 ::: {.feature}
-### {{< fa newspaper >}} News
+### {{< fa door-open >}} Welcome
 We welcome scholars to the fifteenth biannual Swedish Economic History Meeting and the fourth annual Conference of the Scandinavian Society for Economic and Social History.
 
 ::: {.learn-more}
 [Learn more »](info.qmd)
+:::
+:::
+
+::: {.feature}
+### {{< fa users-rectangle >}} Call for session proposals
+We are now inviting session proposals. The deadline for session proposals is the 1st of February 2023.
+
+::: {.learn-more}
+[Learn more »](propose.qmd)
+:::
+:::
+
+::: {.feature}
+### {{< fa hotel >}} Accomodation options
+[Visit Lund](https://visitlund.se/en) has organized fantastic discounted rates for this conference at the following hotels:
+
+::: {.learn-more}
+[Learn more »](logistics/accomodation.qmd)
 :::
 :::
 
