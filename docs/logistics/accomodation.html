@@ -61,6 +61,17 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="../site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="../site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="../site_libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -170,7 +181,475 @@ ul.task-list li input[type="checkbox"] {
 </div></div></div>
 <section id="where-to-stay" class="level2">
 <h2 class="anchored" data-anchor-id="where-to-stay"><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#22458a;overflow:visible;position:relative;"><path d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"></path></svg> Where to stay</h2>
-<p><a href="https://visitlund.se/en">Visit Lund</a> has a selection of hotels at which you can stay <a href="https://visitlund.se/en/accomodation-and-travel/stay-in-lund">listed here</a></p>
+<p><a href="https://visitlund.se/en">Visit Lund</a> has organized fantastic discounted rates for this conference at the following hotels:</p>
+<p><br></p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="lnaowiohww" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#lnaowiohww) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#lnaowiohww) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#lnaowiohww) .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#lnaowiohww) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#lnaowiohww) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#lnaowiohww) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#lnaowiohww) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#lnaowiohww) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#lnaowiohww) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#lnaowiohww) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#lnaowiohww) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#lnaowiohww) .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#lnaowiohww) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#lnaowiohww) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#lnaowiohww) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#lnaowiohww) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#lnaowiohww) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#lnaowiohww) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#lnaowiohww) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#lnaowiohww) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#lnaowiohww) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#lnaowiohww) .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#lnaowiohww) .gt_left {
+  text-align: left;
+}
+
+:where(#lnaowiohww) .gt_center {
+  text-align: center;
+}
+
+:where(#lnaowiohww) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#lnaowiohww) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#lnaowiohww) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#lnaowiohww) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#lnaowiohww) .gt_super {
+  font-size: 65%;
+}
+
+:where(#lnaowiohww) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#lnaowiohww) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#lnaowiohww) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#lnaowiohww) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#lnaowiohww) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#lnaowiohww) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#lnaowiohww) .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <td colspan="6" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">Hotels offering discounted rates for SEHM attendees</td>
+    </tr>
+    
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Hotel</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Address</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Price</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Booking code</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Contact info</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">Hotel Concordia</td>
+<td class="gt_row gt_left">Stålbrogatan 1</td>
+<td class="gt_row gt_left">SEK 1,625 for a single room and SEK 1,775 for a double room including breakfast buffet</td>
+<td class="gt_row gt_left">Svensk- Historiska Ekonomiska mötet</td>
+<td class="gt_row gt_left">Booking takes place via their e-mail: info@concordia.se or via 046-135050</td>
+<td class="gt_row gt_center"><a href="https://www.concordia.se/sv.aspx">website</a></td></tr>
+    <tr><td class="gt_row gt_left">Elite Hotel Ideon</td>
+<td class="gt_row gt_left">Scheelevägen 27</td>
+<td class="gt_row gt_left">SEK 1590 incl. VAT and breakfast buffet</td>
+<td class="gt_row gt_left">SVENSK- HISTORISKA EKONOMISKA MÖTET</td>
+<td class="gt_row gt_left">Bookings are made via group.lund-malmo@elite.se</td>
+<td class="gt_row gt_center"><a href="https://elite.se/sv/hotell/lund">website</a></td></tr>
+    <tr><td class="gt_row gt_left">Hotel Lundia</td>
+<td class="gt_row gt_left">Knut den Stores torg 2</td>
+<td class="gt_row gt_left">Single room SEK 1295 / night including breakfast (Your sourdough roll is baked in Lund, the juice is freshly squeezed just before it is bottled, your yogurt is topped with a really good granola and your coffee is brewed from locally roasted beans.</td>
+<td class="gt_row gt_left">SHEL</td>
+<td class="gt_row gt_left">Book though +46 (0)46-280 65 00 or online</td>
+<td class="gt_row gt_center"><a href="https://www.lundia.se/">website</a></td></tr>
+    <tr><td class="gt_row gt_left">Motel L</td>
+<td class="gt_row gt_left">Telefongatan 14</td>
+<td class="gt_row gt_left">SEK 1,250/night including breakfast and VAT</td>
+<td class="gt_row gt_left">Book through the link for discount</td>
+<td class="gt_row gt_left">Book through ligula.se</td>
+<td class="gt_row gt_center"><a href="https://redirects.ligula.se/Svensk-Historiska-Ekonomiska-motet">website</a></td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+<p>Here is a map of the hotel locations in reference to AF Borgen, the conference venue.</p>
+<p><br></p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-fdfe6b275cc584630674" style="width:100%;height:464px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fdfe6b275cc584630674">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPopups","args":[[55.7019407,55.71757535,55.70547395,55.7175755,55.7052755],[13.1896854391062,13.2138429459895,13.1889862548933,13.229529,13.1957800968683],["<a href = \"https://www.concordia.se/sv.aspx\"> Hotel Concordia <\/a>","<a href = \"https://elite.se/sv/hotell/lund\"> Elite Hotel Ideon <\/a>","<a href = \"https://www.lundia.se/\"> Hotel Lundia <\/a>","<a href = \"https://redirects.ligula.se/Svensk-Historiska-Ekonomiska-motet\"> Motel L <\/a>","AF Borgen"],null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]}],"limits":{"lat":[55.7019407,55.7175755],"lng":[13.1889862548933,13.229529]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p><br></p>
+<p>Mmm, doesn’t that Hotel Lundia breakfast sound good!</p>
 
 
 </section>

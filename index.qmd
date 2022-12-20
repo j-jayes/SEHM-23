@@ -57,9 +57,27 @@ library(fontawesome)
 
 :::
 
+::: {.grid}
+
+::: {.g-col-4}
+
+:::
+
+::: {.g-col-4}
+:::{.get-started}
+## {{< fa newspaper >}} News
+:::
+:::
+
+::: {.g-col-4}
+
+:::
+
+
+:::
 
 ::: {.content-block}
-::: {.features}
+::: {.features .border}
 
 ::: {.feature}
 ### {{< fa newspaper >}} News
